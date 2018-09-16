@@ -1,0 +1,189 @@
+.navbar-brand {
+	color: #ffc107 !important;
+	font-size: 2rem;
+}
+.dropdown:hover>.dropdown-menu {
+	display: block;
+}
+.navbar {
+	border-bottom: #ffc107 3px solid;
+	opacity: 0.8;
+}
+.carousel-item {
+	margin-top: 6%;
+  height: 100vh;
+  min-height: 900px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+.carousel-image-1 {
+	background-image: url("../img/rabi-c.jpg");
+}
+.carousel-image-2 {
+	background-image: url("../img/vivek-c.jpg");
+}
+.carousel-image-3 {
+	background-image: url("../img/apj-c.jpg");
+	background-position: right;
+}
+.carousel-image-4 {
+	background-image: url("../img/haruki-c.jpg");
+	background-position: left;
+}
+#about-1 {
+	position: relative;
+	background: #6c757d;
+}
+#about-2 {
+	position: relative;
+	background: orange;
+}
+#about-3 {
+	position: relative;
+	background: #ffc107;
+}
+#about-4 {
+	position: relative;
+	background: brown;
+}
+#about-1 .container,
+#about-2 .container,
+#about-3 .container,
+#about-4 .container{
+	width: 100%;
+  padding: 0;
+  margin: 0;
+}
+@media (max-width: 576px)
+{
+	#about-1 p,
+	#about-2 p,
+	#about-4 p,
+	#about-3 p {
+		    font-size: 12px !important;
+    padding-top: 10% !important;
+	}
+	 {
+		font-size: 12px !important;
+		padding-top: 70% !important;
+	}
+	.background-image-1,
+	.background-image-2,
+	.background-image-3,
+	.background-image-4{
+    position: relative !important;
+    width: 100% !important;
+  }
+}
+.parallel {
+	background-attachment: fixed !important;
+  background-size: cover !important;
+
+}
+.background-image-1 {
+	
+	background-position: 50% 50% !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.background-image-2 {
+	
+	background-position: 50% 50% !important;
+    background-size: cover !important;
+    width: 150%;
+    height: 100%;
+    min-height: 50vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.background-image-3 {
+	
+	background-position: 50% 50% !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+    min-height: 50vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.background-image-4 {
+	
+	background-position: 50% 50% !important;
+    background-size: cover !important;
+    width: 150%;
+    height: 100%;
+    min-height: 50vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#about-1 .about-image-1 {
+	background: url(../img/rabi-b.jpg) no-repeat;
+}
+#about-2 .about-image-2 {
+	background: url(../img/vivek-b.jpg) no-repeat;
+}
+#about-3 .about-image-3 {
+	background: url(../img/apj-b.jpg) no-repeat;
+}
+#about-4 .about-image-4 {
+	background: url(../img/haruki-b.jpeg) no-repeat;
+}
+#about-1 p,
+#about-2 p,
+#about-3 p,
+#about-4 p
+{
+	color: white;
+	padding: 3%;
+	font-size: 1rem;
+}
+.rabi,.vivek,.apj,.haruki{
+	padding: 22px 42px 42px 42px;
+}
+@media (min-width: 992px)
+{
+#rabi-quotes {
+	padding-top: 10%;
+	background-color: #6c757d;
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+.card-img-top {
+	height: 200px;
+    width: inherit;
+}
+#vivek-quotes {
+	padding-top: 10%;
+	background-color:  #fd7e14;
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+#apj-quotes {
+	padding-top: 10%;
+	background-color: #ffc107;
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+#haruki-quotes {
+	padding-top: 10%;
+	background-color: #9d9e9e;
+	margin-top: 10%;
+	padding-bottom: 10%;
+}
+}
