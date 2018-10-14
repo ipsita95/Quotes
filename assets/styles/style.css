@@ -40,7 +40,7 @@
 }
 #about-3 {
 	position: relative;
-	background: #ffc107;
+	background: #3b7949;
 }
 #about-4 {
 	position: relative;
@@ -74,11 +74,6 @@
     position: relative !important;
     width: 100% !important;
   }
-}
-.parallel {
-	background-attachment: fixed !important;
-  background-size: cover !important;
-
 }
 .background-image-1 {
 	
